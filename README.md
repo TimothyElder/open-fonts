@@ -3,6 +3,9 @@
 These are open source font that I like to use in my documents and that are used in the [TimothyElder/pandoc-teamplates](https://github.com/TimothyElder/pandoc-templates) and [latex-custom-te](https://github.com/TimothyElder/latex-custom-te) repos. A shell script is included to install them on macOS and you can run it with:
 
 ```sh
+cd ~/Documents
+git clone https://github.com/TimothyElder/open-fonts.git
+chmod +x install_fonts.sh
 ./install_fonts.sh
 ```
 
