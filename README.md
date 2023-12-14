@@ -5,6 +5,7 @@ These are open source font that I like to use in my documents and that are used 
 ```sh
 cd ~/Documents
 git clone https://github.com/TimothyElder/open-fonts.git
+cd open-fonts
 chmod +x install_fonts.sh
 ./install_fonts.sh
 ```
