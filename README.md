@@ -7,18 +7,18 @@ Install `.ttf`, `.otf`, `.ttc`, `.otc`, `.dfont` from a folder (recursively) to 
 ## Usage
 
 ```bash
-chmod +x install-fonts.sh
+chmod +x install_fonts.sh
 # Install fonts located alongside the script:
-./install-fonts.sh
+./install_fonts.sh
 
 # Install from a specific folder:
-./install-fonts.sh /path/to/my-fonts
+./install_fonts.sh /path/to/my-fonts
 
 # Overwrite existing:
-./install-fonts.sh /path/to/my-fonts --force
+./install_fonts.sh /path/to/my-fonts --force
 
 # macOS system-wide (requires sudo):
-./install-fonts.sh /path/to/my-fonts --system
+./install_fonts.sh /path/to/my-fonts --system
 ```
 
 ## Windows
